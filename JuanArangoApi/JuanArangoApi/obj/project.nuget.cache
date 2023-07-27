@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gf/sOVoHGH+WQSzKCaEofhHWRDqHnpnaJdE/+iWGGeySguqdwvbQadQh1UgauwC4SfN+rh9phhJGiRoyWoq2fg==",
+  "dgSpecHash": "2K4uGQ/AwfC7fFxUM5IPxi4YWC1cmXmgP/5P4OTuaf6QzkXiu3ja9/5Ii2hOsOMIvo/bwbJYHAoWaJ1E+Rbtnw==",
   "success": true,
-  "projectFilePath": "C:\\Fuentes\\Xamarin\\capacitacionmobile\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
+  "projectFilePath": "C:\\Xamarin\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jarango\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jarango\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

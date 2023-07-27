@@ -11671,11 +11671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Fuentes\\Xamarin\\capacitacionmobile\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
+      "projectUniqueName": "C:\\Xamarin\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
       "projectName": "JuanArangoApi",
-      "projectPath": "C:\\Fuentes\\Xamarin\\capacitacionmobile\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
+      "projectPath": "C:\\Xamarin\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
       "packagesPath": "C:\\Users\\jarango\\.nuget\\packages\\",
-      "outputPath": "C:\\Fuentes\\Xamarin\\capacitacionmobile\\JuanArangoApi\\JuanArangoApi\\obj\\",
+      "outputPath": "C:\\Xamarin\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
