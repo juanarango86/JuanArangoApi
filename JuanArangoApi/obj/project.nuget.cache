@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2K4uGQ/AwfC7fFxUM5IPxi4YWC1cmXmgP/5P4OTuaf6QzkXiu3ja9/5Ii2hOsOMIvo/bwbJYHAoWaJ1E+Rbtnw==",
+  "dgSpecHash": "OD5brEDLhOqGRK9S7Dh83Esq32maxb8RwWqNLvXsZMuRz6Z0adJtQ2JPM/Ly3k3c6SGOUd/AVHjyF/y564v1qw==",
   "success": true,
-  "projectFilePath": "C:\\Xamarin\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
+  "projectFilePath": "C:\\Xamarin\\JuanArangoApi\\JuanArangoApi\\JuanArangoApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jarango\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jarango\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
