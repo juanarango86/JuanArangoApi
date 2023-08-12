@@ -1,10 +1,12 @@
 ﻿using JuanArangoApi.Data;
 using JuanArangoApi.Data.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace JuanArangoApi.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClientsController : ControllerBase
