@@ -42,6 +42,13 @@ namespace JuanArangoApi.Data
                 await this.context.SaveChangesAsync();
             }
 
+            if (!this.context.Formularios.Any())
+            {
+                this.AddFormulario();
+                await this.context.SaveChangesAsync();
+            }
+
+
             await this.context.Database.MigrateAsync();
         }
 
@@ -70,6 +77,23 @@ namespace JuanArangoApi.Data
                 UserName = userId,
                 Password = password,
                 RoleId = userRoleId
+            });
+        }
+
+        private void AddFormulario()
+        {
+            this.context.Formularios.Add(new Models.Formularios
+            {
+                Pregunta_1 = "¿Cual es tu nombre?",
+                Respuesta_1 = "Juan Arango",
+                Pregunta_2 = "¿Cual es tu Edad?",
+                Respuesta_2= "25 años",
+                Pregunta_3= "¿Cual es tu Profesion?",
+                Respuesta_3 = "¿Ingeniero?",
+                Latitud = "6.264586420906778,",
+                Longitud = " -75.59669189755866",
+                UserId = 1
+                                
             });
         }
     }

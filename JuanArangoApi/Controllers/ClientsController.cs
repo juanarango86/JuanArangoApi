@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JuanArangoApi.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ClientsController : ControllerBase

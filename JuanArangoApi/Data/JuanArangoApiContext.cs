@@ -17,12 +17,16 @@ namespace JuanArangoApi.Data
         public DbSet<Client> Client { get; set; } = default!;
         public DbSet<UserRole> UserRole { get; set; } = default!;
         public DbSet<User> User { get; set; } = default!;
+        public DbSet<Formularios> Formularios { get; set; } = default!;
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+
 
             modelBuilder.Entity<Client>().ToTable(nameof(Client));
             modelBuilder.Entity<UserRole>().ToTable(nameof(UserRole));
             modelBuilder.Entity<User>().ToTable(nameof(User));
+            modelBuilder.Entity<Formularios>().ToTable(nameof(Formularios));
 
             base.OnModelCreating(modelBuilder);
         }

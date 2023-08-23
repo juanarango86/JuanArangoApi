@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace JuanArangoApi.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UsersController : ControllerBase
@@ -24,15 +24,15 @@ namespace JuanArangoApi.Controllers
         }
 
         // GET: api/Users
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> GetUser()
-        {
-          if (_context.User == null)
-          {
-              return NotFound();
-          }
-            return await _context.User.ToListAsync();
-        }
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<User>>> GetUser()
+        //{
+        //  if (_context.User == null)
+        //  {
+        //      return NotFound();
+        //  }
+        //    return await _context.User.ToListAsync();
+        //}
 
         // GET: api/Users/5
         [HttpGet]
