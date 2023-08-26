@@ -29,6 +29,7 @@ namespace JuanArangoApi.Controllers
           if (_context.Formularios == null)
           {
               return NotFound();
+
           }
             return await _context.Formularios.Include(x=>x.User).ToListAsync();
         }
